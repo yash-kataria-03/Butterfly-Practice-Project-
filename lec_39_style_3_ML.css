@@ -1,0 +1,318 @@
+#logo img {
+    height: 120px;
+    width: 120px;
+    transition: 0.3s;
+}
+#logo img:hover {
+    height: 120px;
+    width: 120px;
+    transform: translateY(-15px);
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    height: 113%;
+    width: 310%;
+    margin-left: -44px;
+}
+#navbar::before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    background-color: black;
+    height: 113%;
+    width: 100.2%;
+    opacity: 1;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    border-radius: 15px;
+    padding: 13px 53px;
+    text-decoration: none;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 36px;
+    margin-left: 40px;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+    font-size: larger;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 105px 145px;
+    height: 336px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Grape Nuts', cursive;
+    margin: 13px 0px;
+    width: 800px;
+}
+
+#home::before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    background: url('https://wallpaperset.com/w/full/9/9/5/300237.jpg') no-repeat center center/ cover;
+    height: 600px;
+    width: 363.1%;
+    opacity: 0.9;
+    margin-block-start: -104px;
+    margin-left: -79px;
+}
+
+#home h1{
+    margin-left: 145px;
+    padding: 13px 0px;
+    width: 400px;
+    font-size: 40px;
+}
+
+#home p {
+    margin-left: 155px;
+    padding: 10px 10px;
+    width: 585px;
+    font-size: 27px;
+}
+
+#service{
+    height: 1300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+#service-container {
+    width: 569px;
+    margin: 10px 359px;
+    padding: 10px 10px;
+}
+
+#service-container h1{
+    font-size: 53px;
+}
+
+#service .box {
+    border: 4px solid rgb(46 0 255);
+    width: 120%;
+    margin: 15px 18px;
+    padding: 45px 5px;
+    background-color: #cdc8c8;
+    border-radius: 31px;
+    height: 480px;
+}
+
+#service .box img {
+    height: 180px;
+    width: 180px;
+    margin: auto;
+    display: block;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+#service .box h2 {
+    font-size: 36px;
+}
+
+#service .box p {
+    font-size: 30px;
+}
+
+
+ 
+/* Social Media  */
+
+
+#client-section {
+    height: 780px;
+    margin-top: 315px;
+    width: 500px;
+    padding: 10px 115px;
+}
+
+#client-section::before { 
+    position: absolute;
+    content: "";
+    z-index: -1;
+    background: url('https://cdn.searchenginejournal.com/wp-content/uploads/2021/09/16-reasons-why-social-media-is-important-to-your-company-616d3200e6dc6-sej.png') no-repeat center center/cover;
+    height: 101%;
+    width: 299.5%;
+    opacity: 0.5;
+    margin: 4px -114px;
+
+}
+
+#client-section h1{
+    font-size: 53px;
+    margin-left: 230px;
+    width: 500px;
+}
+
+#clients {
+    width: 249%;
+    margin: 0px -97px;
+    padding: 10px 0px;
+    display: flex;
+    height: 345px;
+    justify-content: space-around;
+}
+
+#clients img {
+    height: 175px;
+    opacity: 0.8;
+    margin: 10px -5px;
+    padding: 0px 0px;
+}
+
+
+.client-items{
+    display: flex;
+    flex-direction: row;
+    margin: 3px -40px;
+    padding: 10px 6px;
+}
+
+/* Contact Box */
+
+#contact {
+    position: relative;
+    width: 395px;
+    height: 871px;
+    margin-top: 0px;
+}
+
+#contact::before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    background: url('https://debmedia.com/blog/wp-content/uploads/2021/10/21-10-C-C%C3%B3mo-mejorar-la-Experiencia-del-Cliente-en-un-Call-Center-pre-1200x685.jpg') no-repeat center center/cover;
+    height: 112%;
+    width: 323%;
+    opacity: 0.6;
+}
+
+#contact h1{
+    margin: -120px 282px;
+    padding: 10px 146px;
+    width: 100%;
+    font-size: 53px;
+}
+
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    font-family: 'Grape Nuts', cursive;
+    width: 1089px;
+    margin: 166px 0px;
+    height: 80%;
+}
+
+#contact-box input {
+    width: 124%;
+    height: 30px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 30px;
+    padding: 7px 25px;
+    margin:20px 22px;
+}
+
+#contact-box input:hover {
+    width: 124%;
+    height: 30px;
+    font-size: 1.5rem;
+    border: 4px sloid white;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+#contact-box lable {
+    font-size: 35px;
+    font-family: 'Grape Nuts', cursive;
+    color: black;
+}
+
+#contact-box textarea{
+    width: 124%;
+    height: 268px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 30px;
+    padding: 7px 25px;
+    margin:20px 22px;
+}
+
+#contact-box textarea:hover{
+    width: 124%;
+    height: 268px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Grape Nuts', cursive;
+    font-size: 30px;
+    padding: 7px 25px;
+    margin:20px 22px;
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(0 0 0 / 84%);
+    color: white;
+    padding: 17px 40px;
+    height: 24px;
+    font-family: 'Grape Nuts', cursive;
+    width: 1198px;
+    margin-top: 47px;
+    font-size: larger;
+}
+
+#footer{
+    font-size: larger;
+}
+
+/* Utility Classes */
+
+.btn {
+    font-size: 26px;
+    padding: 15px 39px;
+    margin-left: 167px;
+    margin-top: 25px;
+    background-color: rgb(0, 0, 0, 0.765);
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    font-size: 26px;
+    padding: 15px 39px;
+    margin-left: 167px;
+    margin-top: 25px;
+    background-color: rgba(255, 255, 255, 0.765);
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+}
